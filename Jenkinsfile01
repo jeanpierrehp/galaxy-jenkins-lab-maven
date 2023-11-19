@@ -17,7 +17,7 @@ pipeline {
                 }
             }
         }
-        /*stage('Snyk'){
+/*        stage('Snyk'){
             steps {
                 script {
                     snykSecurity organisation: 'josealdotrucios', projectName: '${JOB_NAME}', 
@@ -49,7 +49,7 @@ pipeline {
                         }
                     }
                 }
-            }*/
+            } */
 
     }
 }
